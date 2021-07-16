@@ -1,0 +1,8 @@
+1. BubbleSort
+2. InsertionSort
+3. SelectionSort
+4. QuickSort
+5. Mergesort
+6. HeapSort
+7. ShellSort
+8. RadixSort
