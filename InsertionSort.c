@@ -31,7 +31,7 @@ void insertionSort(int a[], int n)
         ele=a[i];
     	j=i-1;
         while(j>=0 && a[j]>ele) 
-		{
+	{
             a[j+1]=a[j];
             j=j-1;
         }
