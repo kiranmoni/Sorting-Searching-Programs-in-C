@@ -6,3 +6,4 @@
 6. HeapSort
 7. ShellSort
 8. RadixSort
+9. CountingSort(Positive Integers)
