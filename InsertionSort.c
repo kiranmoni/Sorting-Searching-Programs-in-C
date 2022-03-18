@@ -27,7 +27,7 @@ void readArray(int a[], int n)
 void insertionSort(int a[], int n)
 {
     for(i=1;i<n;i++)
-	{
+    {
         ele=a[i];
     	j=i-1;
         while(j>=0 && a[j]>ele) 
