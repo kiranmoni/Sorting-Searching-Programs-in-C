@@ -1,1 +1,1 @@
-# Sorting-Programs-in-C
+# Sorting-Searching-Programs-in-C
