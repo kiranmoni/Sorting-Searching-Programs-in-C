@@ -3,7 +3,8 @@ void readarray(int [], int);
 void printarray(int [], int);
 void binary_Search(int [], int, int);
 int i;
-void main(){
+void main()
+{
 	int a[100],n,key;
 	printf("Enter number of elements you want to insert into the Array : \t");
 	scanf("%d",&n);
@@ -29,18 +30,23 @@ void printarray(int a[], int n)
 		printf("%d  ",a[i]);	
 	}	
 }
-void binary_Search(int a[], int n, int key){
+void binary_Search(int a[], int n, int key)
+{
 	int lower=0, upper=n-1, mid;
-	while(lower<=upper){
+	while(lower<=upper)
+	{
 		mid=(lower+upper)/2;
-		if(key==a[mid]){
+		if(key==a[mid])
+		{
 			printf("Element Found");
 			return;
 		}
-		else if(key>a[mid]){
+		else if(key>a[mid])
+		{
 			lower=mid+1;
 		}
-		else{
+		else
+		{
 			upper=mid-1;
 		}
 	}
